@@ -1,22 +1,5 @@
 window.onload=function(){
 
-function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
-			embeddedservice_bootstrap.init(
-				'00DE1000001p6MG',
-				'Web_Chat_POC',
-				'https://geisingerhealthsys--hcrmdev.sandbox.my.site.com/ESWWebChatPOC1715674362330',
-				{
-					scrt2URL: 'https://geisingerhealthsys--hcrmdev.sandbox.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-
 const list = [{"quote":"Life isn't about getting and having, it's about giving and being.","author":"Kevin Kruse"},
 {"quote":"Whatever the mind of man can conceive and believe, it can achieve.","author":"Napoleon Hill"},
 {"quote":"Strive not to be a success, but rather to be of value.","author":"Albert Einstein"},
